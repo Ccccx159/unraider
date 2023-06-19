@@ -33,6 +33,7 @@ jobs:
           mkdir -p ./artifacts
           cp -rf ./unraider ./artifacts
           cp -rf ./src/hook.so ./artifacts
+          cp -rf ./code ./artifacts
 
       - name: Upload firmware
         uses: actions/upload-artifact@v3

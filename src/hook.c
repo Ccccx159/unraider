@@ -215,10 +215,10 @@ int get_serial_string(char* buffer, size_t size) {
 }
 
 // test only
-int main() {
-  printf("NAME: %s\n", unraid_name);
-  printf("DATE: %s\n", unraid_date);
-  printf("VERSION: %s\n", unraid_version);
-  printf("SERIAL: %s\n", unraid_uuid);
-  return 0;
-}
+// int main() {
+//   printf("NAME: %s\n", unraid_name);
+//   printf("DATE: %s\n", unraid_date);
+//   printf("VERSION: %s\n", unraid_version);
+//   printf("SERIAL: %s\n", unraid_uuid);
+//   return 0;
+// }

@@ -28,7 +28,7 @@ jobs:
 
       - name: compile
         run: |
-          make clean; make -j$(nproc) V=s
+          make clean && make all
           mkdir -p ./artifacts
           cp -rf ./unraider ./artifacts
           cp -rf ./src/hook.so ./artifacts

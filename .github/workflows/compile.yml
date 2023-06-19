@@ -18,6 +18,7 @@ jobs:
         run: |
           docker rmi `docker images -q`
           sudo -E apt-mark hold grub-efi-amd64-signed
+          sudo apt-get install libudev-dev -y
 
       - name: checkout source code
         uses: actions/checkout@v3
